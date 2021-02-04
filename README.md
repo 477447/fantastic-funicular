@@ -1,31 +1,58 @@
 # fantastic-funicular
-[Авторское право  (c) 2021, 477447]
-[Все права защищены.]
+@@ -0,0 +1,18 @@
+		# Build and Release Folders
+		bin-debug/
+		bin-release/
+		[Oo]bj/
+		[Bb]in/
+		
 
-[Распространение и  использование в исходной и двоичной,формах, с или без]
-[модификации, разрешены при соблюдении следующих условий:]
+		# Other files and folders
+		.settings/
+		
 
-[1. при повторном распространении исходного кода]
-[должно сохраняться указанное выше уведомление]
-[об авторских правах,это список условий и следующий отказ]
-[от ответственности.]
+		# Executables
+		*.swf
+		*.air
+		*.ipa
+		*.apk
+		
 
-[2. Распространение в двоичной форме должно воспроизводить указанное выше]
-[уведомление об авторских правах, этот список условий и следующий отказ от ответственности]
+		# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+		# should NOT be excluded as they contain compiler settings and other important
+		# information for Eclipse / Flash Builder.
+ 25  LICENSE 
+		@@ -0,0 +1,25 @@
+		BSD 2-Clause License
+		
 
-[в документации и/ или другие материалы,поставляемые с распространением.]
+		Copyright (c) 2021, 477447
+		All rights reserved.
+		
 
-[ДАННОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ПРЕДОСТАВЛЯЕТСЯ ВЛАДЕЛЬЦАМИ АВТОРСКИХ ПРАВ И СОСТАВЛЯМИ]
-[<<КАК ЕСТЬ>>. И ЛЮБЫЕ ЯВНЫЕ ИЛИ ПОДРАЗУМЕВАЕМЫЕ ГАРАНТИИ, ВКЛЮЧАЯ НО НЕ ОГРАНИЧИВАясь,]
+		Redistribution and use in source and binary forms, with or without
+		modification, are permitted provided that the following conditions are met:
+		
 
-[ПОДРАЗУМЕВАЕМЫЕ ГАРАНТИИ КОММЕРЧЕСКОЙ ЦЕННОСТИ И ПРИГОДНОСТИ ДЛЯ ОПРЕДЕЛЕННОЙ ЦЕЛИ ЯВЛЯЮТССЯ]
-[ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ НИ В КОЕМ СЛУЧАЕ ВЛАДЕЛЬЦА АВТОРСКИХ ПРАВ ИЛИ УЧАСТНИКИ НЕ НЕСЕТ]
+		1. Redistributions of source code must retain the above copyright notice, this
+		list of conditions and the following disclaimer.
+		
 
-[ОТВЕТСТВЕННОСТИ ДЛЯ ЛЮБЫХ ПРЯМЫХ,КОСВЕННЫХ СЛУЧАЙНЫХ СПЕЦИАЛЬНЫХ ПРИМЕРНЫХ ИЛИ КОСВЕННЫХ]
-[УБЫТКИ (ВКЛЮЧАЯ НО НЕ ОГРАНИЧИВАЯСЬ ЗАКУПКИ ТОВАРОВ ЗАМЕНЫ ИЛИ СЕРВИСЫ; ПОТЕРЯ ИСПОЛЬЗОВАНИЯ]
+		2. Redistributions in binary form must reproduce the above copyright notice,
+		this list of conditions and the following disclaimer in the documentation
+		and/or other materials provided with the distribution.
+		
 
-[ДАННЫХ ИЛИ ПРИБЫЛИ ИЛИ В КОНТРАКТЕ СТРОГОЙ ОТВЕТСТВЕННОСТИ ИЛИ ПЕРЕДАЧА ВКЛЮЧАЯ НЕБРЕЖНОСТЬ ИЛИ ИНОЕ ]
-[ВОЗНИКАЮЩИЕ ЛЮБЫМ СПОСОБОМ ВНЕ ИСПОЛЬЗОВАНИЯ НАСТОЯЩЕГО ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ДАЖЕ СЛУЧАЙНАЯ СВЕДЕНИЯ]
+		THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+		AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+		IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+		DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+		FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+		DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+		SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+		CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+		OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+		OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-[О ВОЗМОЖНОСТИ ТАКОГО УЩЕРБА]
-print("Hello,World!")
+
+
