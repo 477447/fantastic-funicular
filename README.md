@@ -54,6 +54,23 @@
 		OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 		OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 (*)
+# These functions create Actions, Events, and Parameters based the provided 
+# name and metadata.
+def create_local_event(name, metadata=None) 
+def create_local_action(name, handler, metadata=None) 
+def create_remote_action(name, metadata=None, suggestedNode=None, suggestedAction=None) 
+def create_remote_event(name, handler, metadata=None, suggestedNode=None, suggestedEvent=None) 
+def Parameter(schemaDictOrJSONorTitle = None) 
+
+# These functions look for existing Actions, Events, and Parameters based on a
+# string name. They return None if the Action/Event/Parameter could not be 
+# found.
+def lookup_local_action(name) 
+def lookup_local_event(name) 
+def lookup_remote_action(name) 
+def lookup_remote_event(name) 
+def lookup_parameter(name)
+
 
 
 
